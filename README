@@ -1,0 +1,4 @@
+# OpenTracing Github Organization Scraper
+
+This is a little utility I built using the GitHub GraphQL API that scrapes things from the 'opentracing-contrib' organization.
+Then, it transforms them into markdown templates used by Hugo in the https://opentracing.io registry.

@@ -1,0 +1,12 @@
+---
+title: {{ .Node.Name }}
+registryType: 
+  - instrumentation
+tags:
+  - opentracing
+  - {{ .Node.PrimaryLanguage.Name }}
+repo: {{ .Node.URL }}
+license: {{ .Node.LicenseInfo.Name }}
+description: {{ .Node.Description }}
+authors: OpenTracing Contributors
+---
